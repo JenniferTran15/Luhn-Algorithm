@@ -15,7 +15,7 @@ module Luhn
       end
     end
     
-    #add up all the digits
+
     sum = final_nums.inject(:+)
 
     if sum % 10 == 0
